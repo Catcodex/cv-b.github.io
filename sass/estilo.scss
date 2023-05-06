@@ -1,0 +1,111 @@
+body{
+    font-family: 'Monserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+#menu{
+  div{
+    div{
+      h5{
+      font-size:18px;
+      font-weight: bold;
+      color:#3f3f3f;
+        }
+      }  
+  }
+
+  div{
+    ul{
+      li{
+        
+      }
+    }
+  }
+
+}
+#menu{
+  div{
+    form{
+      button{
+        font-size:18px;
+        color: #fff;
+    
+    }
+    }
+    
+  }
+}
+.carousel-inner{
+  max-height: 39rem;
+  div{
+    img{
+      width:10px;
+      height: 400px;
+    }
+  }
+}
+@media (max-width:1200px){
+  #local {
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  .wrapper{
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+  }
+}
+
+@media (max-width:768px) {
+  #intro, #equipo {
+    width: 90% !important;
+  }
+  #equipo p {
+   
+  }
+  .servicio-fila{
+    width: 100% !important;
+    text-align: center;
+  }
+}
+@media(max-width:576px){
+  .icono-wrap{
+    flex-wrap: wrap;
+    justify-content: center !important;
+  }
+}
+.mapa{
+  background-image: url(../imagenes/ubicacion.png)  ;
+  width: 100%;
+  height: 500px;
+  background-size: 760px   600px;
+  }
+section {
+  #local{
+    background: #f3f3f3;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    
+      .wrapper{
+        width: 50%;
+        margin-left: 100px;
+        padding-top: 150px;
+        #numeros-local {
+          p{
+            margin: 0;
+          }
+          div{
+            padding: 0 20px 0 0;
+            height: 48px;
+          }
+          div:not(:last-child) {
+            border-right: 2px solid #3f3f3f
+          }
+          div:not(:first-child) {
+            padding-left: 20px;
+          }
+        }
+      }
+    }
+}
